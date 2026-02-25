@@ -1,13 +1,13 @@
 variable "common_tags" {
     default = {
-        project = "expense"
+        project = "roboshop"
         environment = "dev"
         terraform =  true
     }
 }
 
 variable "project_name" {
-    default = "expense"
+    default = "roboshop"
 }
 
 variable "environment" {

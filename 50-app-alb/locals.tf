@@ -1,8 +1,0 @@
-locals {
-  # StringList to List
-  private_subnet_ids = split(",", data.aws_ssm_parameter.private_subnet_ids.value)
-}
-
-locals {
-  app_alb_sg_id = data.aws_ssm_parameter.app_alb_sg_id.value
-}
